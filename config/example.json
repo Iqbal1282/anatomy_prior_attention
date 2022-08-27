@@ -1,0 +1,19 @@
+{
+    "dataset_path": "/home/mhealth-14/Thesis_400_CXR/iqbal/codebase/HAM/NIH_dataset",
+    "classification_train_csv_path": "/home/mhealth-14/Thesis_400_CXR/iqbal/codebase/HAM/NIH_dataset/classfication_label_train.csv",
+    "localization_train_csv_path": "/home/mhealth-14/Thesis_400_CXR/iqbal/codebase/HAM/NIH_dataset/localization_label_train.csv",
+    "classification_test_csv_path": "/home/mhealth-14/Thesis_400_CXR/iqbal/codebase/HAM/NIH_dataset/classfication_label_test.csv",
+    "width": 224,
+    "height": 224,
+    "use_equalizeHist": true,
+    "normalize_image": true,
+    "pixel_mean": [0.485, 0.456, 0.406],
+    "pixel_std": [0.229, 0.224, 0.225],
+    "use_batch_weight": true,
+    "pos_weight": [9.45, 49.69, 9, 5.28, 20.45, 17.38, 97.77, 31.81],
+    "fc_drop": 0.1,
+    "apply_bn": true,
+    "abnormality_mask_path": "./abnorm_mask_full.npy",
+    "correlation_path": "./correlation_full.npy",
+    "label_smoothing": 0.2
+}

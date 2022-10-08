@@ -1,0 +1,12 @@
+model 1: DenseNet + AvgPool + Classifier
+model 2: DenseNet + PcamPool + Classifier
+model 3: DenseNet + FPN (2 layers) + AvgPool + Classifier
+model 4: DenseNet + FPN_V2 (2 layers) + AvgPool + Classifier
+model 5: DenseNet + Attention Module + AvgPool + Classifier
+model 6: DenseNet + Attention Module (Anatomy + Lung) + AvgPool + Classifier
+model 7: DenseNet + FPN (1 layer) + Attention Module + Classifier
+
+Future Plan:
+    model 8: DenseNet + FPN_V2 + Attention Moduel + Classifier
+    Incorporating PcamPool after attention Module
+    Radiologist annotated abnormality mask
